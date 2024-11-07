@@ -76,7 +76,7 @@ class AddUser extends Component
             ]);
 
             $this->dispatch('notify', ['type' => 'success', 'content' => 'User created successfully']);
-            $this->userDetail($obj);
+            // $this->userDetail($obj);
         }
     }
 
